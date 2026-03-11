@@ -1,7 +1,7 @@
 class Dxai < Formula
   desc "Clean, optimize, and manage AI dev environments on your Mac"
   homepage "https://github.com/glen15/dxai"
-  url "https://github.com/glen15/dxai/archive/refs/tags/V#{version}.tar.gz"
+  url "https://github.com/glen15/dxai/archive/refs/tags/V1.0.0.tar.gz"
   license "MIT"
   head "https://github.com/glen15/dxai.git", branch: "main"
 
