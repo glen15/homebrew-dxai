@@ -7,6 +7,8 @@ cask "dxai" do
   desc "AI dev environment manager for your Mac menu bar"
   homepage "https://github.com/glen15/dxai"
 
+  auto_updates true
+
   depends_on macos: ">= :ventura"
 
   app "DxaiBar.app"
