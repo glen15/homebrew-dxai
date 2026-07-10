@@ -1,8 +1,8 @@
 class Dxai < Formula
   desc "Clean, optimize, and manage AI dev environments on your Mac"
   homepage "https://github.com/glen15/dxai"
-  url "https://github.com/glen15/dxai/archive/refs/tags/V1.0.23.tar.gz"
-  sha256 "35347dd2661952e7df3d0768bf57eb16c877f54bc8845efbf09c3bbb1b291d00"
+  url "https://github.com/glen15/dxai/archive/refs/tags/V1.0.24.tar.gz"
+  sha256 "82cbe385d1d6eb540c75718f6c52842b59597c530eaa7026b69c962fa817485c"
   license "MIT"
   head "https://github.com/glen15/dxai.git", branch: "main"
 
@@ -11,15 +11,15 @@ class Dxai < Formula
 
   resource "binaries-arm64" do
     on_arm do
-      url "https://github.com/glen15/dxai/releases/download/V1.0.23/binaries-darwin-arm64.tar.gz"
-      sha256 "efcb5e29698cf4c117a3cc36d5f84b3e2116ec17c98efbdd3877515eafbc2038"
+      url "https://github.com/glen15/dxai/releases/download/V1.0.24/binaries-darwin-arm64.tar.gz"
+      sha256 "b8d6be8e760ff0f526f4d399377c7b985f783cc4fedc1bd8cef0b98de7c32fea"
     end
   end
 
   resource "binaries-amd64" do
     on_intel do
-      url "https://github.com/glen15/dxai/releases/download/V1.0.23/binaries-darwin-amd64.tar.gz"
-      sha256 "ceb91f905a4f0015c77630e2088251361f946d059cfc7e2cafef95bd87d41df7"
+      url "https://github.com/glen15/dxai/releases/download/V1.0.24/binaries-darwin-amd64.tar.gz"
+      sha256 "cc0993936ab706885427aa36589698fe99394e3c8186fbe4d14589cdc7e7f941"
     end
   end
 
